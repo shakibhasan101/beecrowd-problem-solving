@@ -1,23 +1,26 @@
-#include<stdio.h>
-int main()
-{
-    int a[16]={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}, i;
+#include <stdio.h>
+
+int main() {
+
     printf("---------------------------------------\n");
     printf("|  decimal  |  octal  |  Hexadecimal  |\n");
     printf("---------------------------------------\n");
-
-
-    for(i=0;i<=7;i++)
-    {
-        printf("|      %d    |    %o    |       %x       |\n",a[i],a[i],a[i]);
-    }
-        printf("|      %d    |    %o   |       %x       |\n",a[8],a[8],a[8]);
-        printf("|      %d    |    %o   |       %x       |\n",a[9],a[9],a[9]);
-
-    for(i=10;i<=15;i++)
-    {
-        printf("|      %d   |    %o   |       %x       |\n",a[i],a[i],a[i]);
-    }
+    printf("|      0    |    0    |       0       |\n");
+    printf("|      1    |    1    |       1       |\n");
+    printf("|      2    |    2    |       2       |\n");
+    printf("|      3    |    3    |       3       |\n");
+    printf("|      4    |    4    |       4       |\n");
+    printf("|      5    |    5    |       5       |\n");
+    printf("|      6    |    6    |       6       |\n");
+    printf("|      7    |    7    |       7       |\n");
+    printf("|      8    |   10    |       8       |\n");
+    printf("|      9    |   11    |       9       |\n");
+    printf("|     10    |   12    |       A       |\n");
+    printf("|     11    |   13    |       B       |\n");
+    printf("|     12    |   14    |       C       |\n");
+    printf("|     13    |   15    |       D       |\n");
+    printf("|     14    |   16    |       E       |\n");
+    printf("|     15    |   17    |       F       |\n");
     printf("---------------------------------------\n");
 
     return 0;
